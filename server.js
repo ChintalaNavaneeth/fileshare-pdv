@@ -12,7 +12,7 @@ connectDB();
 
 //cors
 const corsOptions = {
-  origin: process.env.ALLOWED_CLIENTS.split(','),
+  origin: 'https://fileshare-pdv.herokuapp.com',
 };
 app.use(cors(corsOptions));
 
