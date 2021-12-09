@@ -14,7 +14,7 @@ const fileURL = document.querySelector('#fileURL');
 
 const toast = document.querySelector('.toast');
 
-const baseURL = 'https://fileshare-pdv.herokuapp.com/';
+const baseURL = 'https://fileshare-pdv.herokuapp.com';
 const uploadURL = `${baseURL}/api/files`;
 
 const maxAllowedSize = 100 * 1024 * 1024; //100mb
